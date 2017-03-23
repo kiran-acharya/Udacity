@@ -2,7 +2,7 @@
 
 ## Summary
 
-This project visualizes a trimmed down subset of data from the [Lahman’s Baseball Database](https://www.google.com/url?q=https://s3.amazonaws.com/udacity-hosted-downloads/ud507/baseball_data.csv&sa=D&ust=1490125746632000&usg=AFQjCNFCnmjfmAdD01JPvXiOtpgyT9Z94w). The visualization shows the high proportion of baseball players who are left-handed and compares their performance (batting average and number of home run) to the remaining players. You can [see the visualization here.](http://zelite.github.io/Make-Effective-Data-Visualization/)
+This project visualizes a trimmed down subset of data from the [Lahman’s Baseball Database](https://www.google.com/url?q=https://s3.amazonaws.com/udacity-hosted-downloads/ud507/baseball_data.csv&sa=D&ust=1490125746632000&usg=AFQjCNFCnmjfmAdD01JPvXiOtpgyT9Z94w). The visualization shows the high proportion of baseball players who are left-handed and compares their performance (batting average and number of home run) to the remaining players.
 
 ## Design
 
@@ -10,8 +10,11 @@ The first decision made was to remove players with zero batting average. Since b
 
 ### Bar Plot
 
-To compare the proportion of baseball players in each handedness
-category a simple bar plot is used.
+To compare how many players are right or left handed or how many are ambidextrous, we chose bar plot for this because: Bar graphs have three key attributes.
+
+#It's easy to compare sets of data between different groups at a glance.
+#The relationship of the data between the x and y axes is easy to see.
+#They are effective in presenting trends or changes over time.
 
 ### Box-Plots
 
@@ -44,6 +47,13 @@ population, but had no idea that they had a higher avg batting average & HRs.
 Feedback C:
 >I did not need any of the narration to support the visuals/plots, it was clear at first glance
 My take away would be although narration was quite to point.
+
+
+
+After a few feedbacks, The order of categories was changed a bit anf left handed players are now kept on left side and right handed on right, this makes sense and also makes the visualization mode intuitive
+Also based on feedback, tooltips that show the median values appear when hovering the boxes with the mouse pointer. Additionally, the performance and names of the outliers appear when hovering the outlier circles.
+
+
 
 ## Resources
 ### Baseball resources:
