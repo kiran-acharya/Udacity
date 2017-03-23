@@ -24,9 +24,9 @@ it does not make sense to include players that are not batters.
 To compare how many players are right or left handed or how many are ambidextrous, 
 we chose bar plot for this because: Bar graphs have three key attributes.
 
-#It's easy to compare sets of data between different groups at a glance.
-#The relationship of the data between the x and y axes is easy to see.
-#They are effective in presenting trends or changes over time.
+	* It's easy to compare sets of data between different groups at a glance.
+	* The relationship of the data between the x and y axes is easy to see.
+	* They are effective in presenting trends or changes over time.
 
 ### Box-Plots
 
@@ -40,15 +40,16 @@ in one single plot:
 
 ## Feedback
 
-#What do you notice in the visualization?
-#What questions do you have about the data?
-#What relationships do you notice?
-#What do you think is the main takeaway from this visualization?
-#Is there something you don’t understand in the graphic?
+	* What do you notice in the visualization?
+	* What questions do you have about the data?
+	* What relationships do you notice?
+	* What do you think is the main takeaway from this visualization?
+	* Is there something you don’t understand in the graphic?
 
 Feedback A:
 > The visualisation makes sense to me if data is right, I notice handedness plotted against performance of a player.
-Looking at the data I think height could be used to make good assumptions.
+Looking at the data I think height could be used to make good assumptions. My suggestion would be reorder the players
+which are more likely to user's view i;e left handed players to left and right handed to right others in center.
 
 
 Feedback B:
@@ -58,15 +59,16 @@ population, but had no idea that they had a higher avg batting average & HRs.
 
 Feedback C:
 >I did not need any of the narration to support the visuals/plots, it was clear at first glance
-My take away would be although narration was quite to point.
+My take away would be although narration was quite to point. It would be great if you could add some color 
+and find some way user's can interact with charts to drill down themselves.
 
 
+Addressing Feedback A:
+>According to the feedback A The order of categories was changed a bit anf left handed players are now kept on 
+left side and right handed on right, this makes sense and also makes the visualization mode intuitive
 
-#After a few feedbacks, The order of categories was changed a bit anf left handed players are now kept on 
-left side and right handed on right, 
-this makes sense and also makes the visualization mode intuitive
-
-#Also based on feedback, tooltips that show the median values appear when hovering the boxes with the mouse pointer. 
+Addressing Feedback C:
+>Also based on feedback, tooltips that show the median values appear when hovering the boxes with the mouse pointer. 
 Additionally, the performance and names of the outliers appear when hovering the outlier circles.
 
 
