@@ -34,9 +34,9 @@ To compare the batting average and home runs, box-plots are used. The
 reason for this choice is the ability to convey a lot of information
 in one single plot:
 
-  * we can compare medians.
-  * we can compare distributions.
-  * we can visualize outliers.
+	* we can compare medians.
+	* we can compare distributions.
+	* we can visualize outliers.
 
 ## Feedback
 
